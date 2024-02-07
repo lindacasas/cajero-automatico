@@ -1,6 +1,7 @@
 CAJERO AUTOMÁTICO
 
 DESCRIPCIÓN
+
 El proyecto "Cajero Automático" es una aplicación web desarrollada con HTML, CSS, JavaScript y Bootstrap. Esta aplicación simula las funciones básicas de un cajero automático, como iniciar sesión, consultar saldo, depositar y retirar dinero.
 
 El proyecto consta de tres secciones principales:
@@ -18,6 +19,7 @@ Aquí, los usuarios pueden ingresar su nombre de usuario y contraseña para acce
 En esta sección, se muestran opciones para realizar diferentes transacciones, como depositar y retirar dinero. También se muestra el saldo actual de la cuenta. Los usuarios pueden realizar operaciones como depositar una cantidad específica o retirar una cantidad determinada de dinero. Hay controles adicionales para retirar cantidades predefinidas de 100, 200 o 500 unidades monetarias. Además, se proporciona la opción para cerrar sesión y volver a ingresar la tarjeta.
 
 TECNOLOGÍAS UTILIZADAS
+
 -HTML: Se utiliza para estructurar el contenido de la aplicación, como los elementos de la interfaz de usuario.
 -CSS: Se utiliza para estilizar y diseñar la apariencia de la aplicación.
 -JavaScript: Se utiliza para agregar interactividad a la aplicación, como validar formularios, realizar cálculos y manipular elementos del DOM.
@@ -27,5 +29,6 @@ AUTOR:
 Linda Melissa Casas Huanca
 
 URL
+
 -GitHub: https://github.com/lindacasas/cajero-automatico
 -GitHub Pages: https://lindacasas.github.io/cajero-automatico/
