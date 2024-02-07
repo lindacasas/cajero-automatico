@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automático</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link href="./src/css/reset.css" rel="stylesheet" />
+    <link href="./src/css/normalize.css" rel="stylesheet" />
+    <link href="./src/css/style.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container-main">
+        <h1 class="text-main">Bienvenido/a al Cajero Automático</h1>
+        <p class="message-main">Por favor, ingrese su tarjeta para continuar</p>
+        <button type="button" id="card-btn" onclick="welcome()">Ingresar Tarjeta</button>
+    </div>
+
+    <div id="login-container" class="container mt-5 d-none">
+        <h1 class="text-center my-4">Cajero Automático</h1>
+        <h2 class="mb-4">Login</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" class="form-control" autocomplete="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" class="form-control" autocomplete="current-password" required>
+            </div>
+            <button type="button" id="login-btn" class="btn btn-primary">Ingresar</button>
+        </form>
+    </div>
+
+    <div id="atm-area" class="text-center d-none">
+        <h4 id="welcome-message">Bienvenido/a, Usuario</h4>
+        <div id="balance-display" class="my-3"></div>
+
+        <div class="my-3">
+            <label for="deposit-amount">Cantidad a depositar:</label>
+            <input type="number" id="deposit-amount" class="form-control mb-2">
+            <button id="deposit-btn" class="btn btn-success">Depositar</button>
+        </div>
+
+        <div class="my-3">
+            <label for="withdraw-amount">Cantidad a retirar:</label>
+            <input type="number" id="withdraw-amount" class="form-control mb-2">
+            <button id="withdraw-btn" class="btn withdraw-btn btn-warning">Retirar</button>
+            <button id="withdraw-100-btn" class="btn withdraw100-btn btn-warning my-2">Retirar 100</button>
+            <button id="withdraw-200-btn" class="btn withdraw200-btn btn-warning my-2">Retirar 200</button>
+            <button id="withdraw-500-btn" class="btn withdraw500-btn btn-warning my-2">Retirar 500</button>
+        </div>
+            
+        <button id="balance-btn" class="btn btn-info">Consultar Saldo</button>
+        <button id="reinsert-btn" class="btn btn-success my-2">Reintroducir Tarjeta</button>
+        <button id="logout-btn" class="btn btn-danger my-2">Salir</button>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Your Custom Script -->
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
