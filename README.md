@@ -31,5 +31,5 @@ Linda Melissa Casas Huanca
 
 ## URL
 
--GitHub: https://github.com/lindacasas/cajero-automatico  
--GitHub Pages: https://lindacasas.github.io/cajero-automatico/
+GitHub: https://github.com/lindacasas/cajero-automatico  
+GitHub Pages: https://lindacasas.github.io/cajero-automatico/
