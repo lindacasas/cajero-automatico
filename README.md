@@ -20,10 +20,10 @@ En esta sección, se muestran opciones para realizar diferentes transacciones, c
 
 TECNOLOGÍAS UTILIZADAS
 
-**-HTML: Se utiliza para estructurar el contenido de la aplicación, como los elementos de la interfaz de usuario.**
-**-CSS: Se utiliza para estilizar y diseñar la apariencia de la aplicación.**
-**-JavaScript: Se utiliza para agregar interactividad a la aplicación, como validar formularios, realizar cálculos y manipular elementos del DOM.**
-**-Bootstrap: Se utiliza para facilitar el diseño receptivo y el aspecto visual de la aplicación, así como para los estilos de los botones y los formularios.**
+*-HTML: Se utiliza para estructurar el contenido de la aplicación, como los elementos de la interfaz de usuario.*
+*-CSS: Se utiliza para estilizar y diseñar la apariencia de la aplicación.*
+*-JavaScript: Se utiliza para agregar interactividad a la aplicación, como validar formularios, realizar cálculos y manipular elementos del DOM.*
+*-Bootstrap: Se utiliza para facilitar el diseño receptivo y el aspecto visual de la aplicación, así como para los estilos de los botones y los formularios.*
 
 AUTOR
 
@@ -31,5 +31,5 @@ Linda Melissa Casas Huanca
 
 URL
 
-**GitHub: https://github.com/lindacasas/cajero-automatico**
-**GitHub Pages: https://lindacasas.github.io/cajero-automatico/**
+*GitHub: https://github.com/lindacasas/cajero-automatico*
+*GitHub Pages: https://lindacasas.github.io/cajero-automatico/*
